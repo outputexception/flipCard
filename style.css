@@ -8,6 +8,13 @@ html, body {
   background-color: #2f1b1b;
 }
 
+.flipCard:hover, .flipCardBack:hover {
+  box-shadow: 0px 0px 100px 10px #c12a2a;
+}
+
+.flipCard:active, .flipCardBack:active{
+  box-shadow: 0px 0px 100px 10px rgba(#e31818, 0.82);
+}
 
 .flipCard, .flipCardBack {
   width: 300px;

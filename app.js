@@ -14,7 +14,9 @@
 // })
 
 this.addEventListener('DOMContentLoaded', event => {
+  $('#draggable').draggable()
   var flipCard = document.getElementsByClassName('flipCard')[0]
+  $(flipCard).draggable()
   flipCard.addEventListener('click', e => {
     flipCard.className = flipCard.className === 'flipCard' ? 'flipCardBack' : 'flipCard'
   }, true)
